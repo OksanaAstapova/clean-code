@@ -1,5 +1,5 @@
 /* Basic Style */
-.app {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -27,19 +27,19 @@
   }
 }
 
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
-.task {
+.main__section__task-row__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main__section__task-row {
     display: flex;
 }
 
