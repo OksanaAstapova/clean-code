@@ -74,8 +74,7 @@
 
 /* Heading */
 
-.h3,
-.label {
+.h3 {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -119,15 +118,13 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.li > * {
     vertical-align: middle;
 }
+
+
 
 .input_checkbox {
     margin: 0 10px;
@@ -138,10 +135,6 @@
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
-}
-
-.label {
-    width: 226px
 }
 
 .delete__img {
@@ -163,15 +156,12 @@
 
 /* Edit Task */
 
-.input_text {
-    display:none;
-}
-
 .edit-mode__input {
     display:inline-block;
     width:224px;
 }
 
-.edit-mode__label {
+.edit-mode__label,
+.input_text {
     display:none;
 }
