@@ -54,11 +54,11 @@
 }
 
 .input,
-.btn{
+.button{
     outline:none;
 }
 
-.btn {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
     color: #3a3A3a;
 }
 
@@ -123,8 +123,6 @@
     align-items: center;
     vertical-align: middle;
 }
-
-
 
 .input_checkbox {
     margin: 0 10px;
